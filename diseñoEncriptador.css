@@ -1,0 +1,236 @@
+/* .logo {
+    display: block;
+    margin: 20px 0 30px 5px;
+}
+
+body {
+    background: #E9ECF8;
+}
+
+.ingresarTexto {
+    display: block;
+    margin: 10px;
+
+    width: 50%;
+    background: #E9ECF8;
+    border: #E9ECF8;
+    position: relative;
+    left: 200px;
+
+}
+
+.encriptar {
+    background: #0A3871;
+    padding: 24px;
+    height: 50px;
+    width: 328px;
+    color: #ffffff;
+    margin: 0 1.5% 0 0;
+    display: inline-block;
+    cursor: pointer;
+    border: #0A3871;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    transition: 1s all;
+    cursor: pointer;
+    position: relative;
+    top: 400px;
+    left: 200px;
+}
+
+.desencriptar {
+    background: #D8DFE8;
+    padding: 24px;
+    height: 50px;
+    width: 328px;
+    color: #0A3871;
+    cursor: pointer;
+    border: #940000;
+    border-radius: 20px;
+    border-top-right-radius:20px;
+     border-top-left-radius: 20px;
+     border-bottom-left-radius: 20px;
+     border-bottom-right-radius: 20px;
+    transition: 1s all;
+    cursor: pointer;
+    position: relative;
+    top: 400px;
+    left: 200px;
+    display:flex;
+} */
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #E9ECF8;
+
+}
+
+.contenedor-principal {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    box-sizing: border-box;
+
+}
+
+.seccion-logo {
+    width: 15%;
+    height: 100%;
+    display: flex;
+    background-color: #E9ECF8;
+    justify-content: center;
+
+}
+
+.logo {
+    width: 180px;
+    margin-top: 20px;
+    height: 60px;
+
+
+}
+
+.seccion-texto-principal {
+    width: 60%;
+    height: 100%;
+    background-color: #E9ECF8;
+    padding: 32px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.textarea-seccion {
+    width: 100%;
+    height: 65%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.textarea {
+    width: 100%;
+    height: 350px;
+    background-color: transparent;
+    resize: none;
+    border: none;
+    padding: 3px;
+    font-size: 20px;
+    color: #0A3871;
+    border-radius: 15px;
+    margin-top: 50px;
+
+}
+
+.textarea:focus {
+    outline: none;
+}
+
+.textarea::placeholder {
+    color: #0A3871;
+    font-weight: bolder;
+
+}
+
+.seccion-secundaria {
+    width: 100%;
+    height: 20%;
+
+
+}
+
+.encriptar {
+    height: 50px;
+    width: 328px;
+    border: 1px solid #0A3871;
+    background-color: #0A3871;
+    border-radius: 20px;
+    color: #ffffff;
+    margin-right: 25px;
+    cursor: pointer;
+
+}
+
+.encriptar:hover {
+    background-color: white;
+    color: #0A3871;
+}
+
+.desencriptar {
+    height: 50px;
+    width: 328px;
+    border: 1px solid #0A3871;
+    background-color: transparent;
+    border-radius: 20px;
+    color: #0A3871;
+    cursor: pointer;
+
+}
+
+.desencriptar:hover {
+    background-color: #0A3871;
+    color: white;
+}
+
+.copiar {
+    height: 50px;
+    width: 280px;
+    border: 1px solid #0A3871;
+    background-color: transparent;
+    border-radius: 20px;
+    color: #0A3871;
+    cursor: pointer;
+    margin-top: 60px;
+    margin-left: 15px;
+
+}
+
+.copiar:hover {
+    background-color: #0A3871;
+    color: white;
+
+}
+
+
+
+.seccion-textos-salida {
+    margin-top: 20px;
+    width: 23%;
+    height: 95%;
+    background: white;
+    border-radius: 20px;
+    box-shadow: -9px 8px 15px -9px;
+
+
+}
+
+#dibujo {
+    width: 100%;
+    margin-top: 40px;
+}
+
+#titulo-mensaje {
+    margin-top: 20px;
+    width: 100%;
+    margin-left: 50px;
+}
+
+#parrafo {
+    margin-top: 20px;
+    width: 100%;
+    margin-left: 50px;
+}
+
+footer {
+    background-color: #AAB2D5;
+    text-align: center;
+}
+
+/* adaptar pantalla a celulares y tablet */
+
+  

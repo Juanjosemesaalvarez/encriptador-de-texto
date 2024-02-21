@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Desencriptador de texto</title>
+    <meta name="viewport" content="width = device=width">
+    <link rel="stylesheet" href="diseñoEncriptador.css">
+</head>
+
+<body>
+    <div class="contenedor-principal">
+        <section class="seccion-logo">
+            <img class="logo" src="Logo.png">
+
+        </section>
+        <section class="seccion-texto-principal">
+            <div class="textarea-seccion">
+                <textarea class="textarea" placeholder="Escribe el texto para encriptar">
+
+                </textarea>
+            </div>
+            <div class="seccion-secundaria">
+                <div>
+                    <img>
+                    <p id="terminos">
+                        Solo letras minusculas y sin acentos.
+                    </p>
+                </div>
+                <div>
+                    <button type="button" onclick="botonEncriptar();" class="encriptar">Encriptar</button>
+                    <button type="button" onclick="boronDesencriptar()" class="desencriptar">Desencriptar</button>
+
+
+                </div>
+            </div>
+        </section>
+        <section class="seccion-textos-salida">
+
+
+            <div class="mensaje-encriptado" id=mensaje-encriptado>
+                <img src="Muñeco.png" id="dibujo">
+                <h2 id="titulo-mensaje">Ningun mensaje fue encontrado</h2>
+                <p id="parrafo">Ingresa el texto que deseas encriptar o desencriptar</p>
+
+
+            </div>
+
+
+
+            <button class="copiar">Copiar</button>
+
+        </section>
+    </div>
+
+
+
+</body>
+
+<footer>
+
+    <p>Juan José Mesa Álvarez</p>
+    <p>correo: juanjosemesaalvarez@gmail.com</p>
+    <p>grupo 6 ONE</p>
+
+</footer>
+<script src="codigo Encriptador.js"></script>
+
+</html>
